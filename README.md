@@ -1,7 +1,6 @@
 ![ROKOS-OK](http://i.imgur.com/XPXrqBg.png)
 ROKOS IoT Open Source Website
 =========================== 
-* Author: OKtoshi
 
 Raspbian OK OS for Raspberry PI and IoT Devices (Internet of Things) Resources Website
 
@@ -12,9 +11,9 @@ ROKOS Downloads, Resources, Feedback and Support Threads
 
 Website: http://rokos.space
 
-Website Github: https://github.com/okcashpro/rokos.space
+Website Github: https://github.com/BitcoinFullnode/rokos.space.website
 
-ROKOS Github: https://github.com/okcashpro/rokos
+ROKOS Github: https://github.com/BitcoinFullnode/rokos
 
 BTCTalk ROKOS core support/feedback: https://bitcointalk.org/index.php?topic=1312616.0
 
@@ -29,6 +28,8 @@ http://techcrunch.com/2016/01/04/the-rokos-core-os-turns-your-raspberry-pi-into-
 http://letstalkpayments.com/fintech-at-ces-mastercard-coin-rokos-samsung-and-softbank-are-making-waves/
 
 
-#Live Support
+#Community and Live Support
 
-[![Visit the OK Community IRC Chat for Support!](https://kiwiirc.com/buttons/irc.freenode.net/okcash.png)](https://kiwiirc.com/client/irc.freenode.net/?nick=ok|?&theme=cli#okcash)
+<a href="https://discord.gg/grvpc8c">
+    <img alt="Logo" src="https://discordapp.com/api/guilds/213747404745211904/widget.png?style=banner2">
+  </a>
