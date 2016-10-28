@@ -60,8 +60,9 @@
                             </ul>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">How to Install <b class=" icon-angle-down"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="rokos_core.html">ROKOS core v7 - Pine64+</a></li> 
+                            <ul class="dropdown-menu"> 
+                <li><a href="burn_sdcard.html">Burn ROKOS .img to SDcard</a></li>   
+                 <li><a href="rokos_core.html">ROKOS core v7 - Pine64+</a></li>
  <li><a href="rokos_corepi.html">ROKOS core v7 - Raspberry Pi z,2,3</a></li>
                                 <li><a href="rokos_flavors.html">ROKOS flav v6 - Raspberry Pi z,2,3</a></li>
 								<!-- <li><a href="#">Tutorials</a></li> -->
@@ -81,7 +82,7 @@
 			<div class="col-lg-12">
 				<ul class="breadcrumb">
 					<li><a href="index.html"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-					<li>ROKOS<i class="icon-angle-right"></i></li>
+					<li>How to<i class="icon-angle-right"></i></li>
 					<li class="active">Core (Bitcoin) for Raspberry Pi zero, 2, 3</li>
 				</ul>
 			</div>
@@ -90,7 +91,38 @@
 	</section>
 	<section id="content">
 	<div class="container">
-<p>New Core Release coming up.<br /><br /></p>
+<div align="center"><strong>---Installing ROKOS Core---</strong><br />(The first boot of ROKOS Core for Raspberry Pi)</div>
+<p><br /><br />1. Type:</p>
+<div class="codeheader">Code:</div>
+<div class="code">
+<pre style="margin-top: 0; display: inline;">sudo raspi-config</pre>
+</div>
+<p>(and press enter)<br /><br />2. Select:</p>
+<div class="codeheader">Code:</div>
+<div class="code">
+<pre style="margin-top: 0; display: inline;">1. Expand Filesystem</pre>
+</div>
+<p>(and press enter) press enter again on the &lt;Ok&gt; button.<br /><br />3. Select:</p>
+<div class="codeheader">Code:</div>
+<div class="code">
+<pre style="margin-top: 0; display: inline;">2. Change user password</pre>
+</div>
+<p>(and press enter) press enter again on the &lt;Ok&gt; button. Type a new password (you will not see the letters) and press enter, type your new password again, and press enter. Then press the &lt;Ok&gt; button.<br /><br />4. Select:</p>
+<div class="codeheader">Code:</div>
+<div class="code">
+<pre style="margin-top: 0; display: inline;">5. Internationalization Options</pre>
+</div>
+<p>(and press enter) Then select:</p>
+<div class="codeheader">Code:</div>
+<div class="code">
+<pre style="margin-top: 0; display: inline;">I2. Change Timezone</pre>
+</div>
+<p>(Choose your timezone)<br /><br />5. Press the "TAB" button on your keyboard two times to get to the &lt;Finish&gt; button, and press enter. Then choose &lt;Yes&gt; to restart your system.<br /><br />6. Type:</p>
+<div class="codeheader">Code:</div>
+<div class="code">
+<pre style="margin-top: 0; display: inline;">startx</pre>
+</div>
+<p>(and press enter) your system will now start up and you are <strong>DONE!</strong><br /><br />ENJOY THIS AWESOME OPERATING SYSTEM!</p>
 <p>&nbsp;</p>
 	</section>
 	<footer>

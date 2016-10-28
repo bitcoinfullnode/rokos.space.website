@@ -60,8 +60,9 @@
                             </ul>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">How to Install <b class=" icon-angle-down"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="rokos_core.html">ROKOS core v7 - Pine64+</a></li> 
+                            <ul class="dropdown-menu"> 
+                <li><a href="burn_sdcard.html">Burn ROKOS .img to SDcard</a></li>   
+                 <li><a href="rokos_core.html">ROKOS core v7 - Pine64+</a></li>
  <li><a href="rokos_corepi.html">ROKOS core v7 - Raspberry Pi z,2,3</a></li>
                                 <li><a href="rokos_flavors.html">ROKOS flav v6 - Raspberry Pi z,2,3</a></li>
 								<!-- <li><a href="#">Tutorials</a></li> -->
@@ -81,7 +82,7 @@
 			<div class="col-lg-12">
 				<ul class="breadcrumb">
 					<li><a href="index.html"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-					<li>ROKOS<i class="icon-angle-right"></i></li>
+					<li>How to<i class="icon-angle-right"></i></li>
 					<li class="active">Core (Bitcoin) for Pine64+</li>
 				</ul>
 			</div>
@@ -90,7 +91,10 @@
 	</section>
 	<section id="content">
 	<div class="container">
-<p>New Core Release coming up.<br /><br /></p>
+
+	<div align="center"><strong>Steps for first boot for ROKOS core for Pine64+<br /></strong></div>
+<p><br />User: pi &nbsp;/ Password: rokos , follow normal setup.<br /><br />a) Login and open a terminal.<br />b) type: &nbsp; &nbsp; &nbsp;<strong>sudo ./resize-sdcard.sh</strong> &nbsp; &nbsp; &nbsp; (this will resize and use all the space from the SD card)<br />c) System ready for use.<br /><br />Extra info command to auto-sync the OKCash chain in minutes:<br /><br />a) Open terminal.<br />b) type: &nbsp; &nbsp; &nbsp; &nbsp; <strong>./ok-sync-arm64.sh</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (this will download and unzip the latest ok-blockchain snapshot to the okcash datafolder for Pine64+ devices)<br />c) start your wallet after the process is done and give it some minutes.<br />d) your OK wallet is ready to be used.<br /><br />Done, enjoy your ROKOS v7</p>
+	
 <p>&nbsp;</p>
 	</section>
 	<footer>
