@@ -63,7 +63,7 @@
                             <ul class="dropdown-menu"> 
                 <li><a href="burn_sdcard.html">Burn ROKOS .img to SDcard</a></li>   
                  <li><a href="rokos_core.html">ROKOS core v7 - Pine64+</a></li>
- <li><a href="rokos_corepi.html">ROKOS core v7 - Raspberry Pi z,2,3</a></li>
+ <li><a href="rokos_corepi.html">ROKOS core v7 - Raspberry Pi 2, 3</a></li>
                                 <li><a href="rokos_flavors.html">ROKOS flav v6 - Raspberry Pi z,2,3</a></li>
 								<!-- <li><a href="#">Tutorials</a></li> -->
                             </ul>
@@ -83,7 +83,7 @@
 				<ul class="breadcrumb">
 					<li><a href="index.html"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
 					<li>How to<i class="icon-angle-right"></i></li>
-					<li class="active">Core (Bitcoin) for Raspberry Pi zero, 2, 3</li>
+					<li class="active">Core (Bitcoin) for Raspberry Pi 2, 3</li>
 				</ul>
 			</div>
 		</div>
@@ -91,38 +91,10 @@
 	</section>
 	<section id="content">
 	<div class="container">
-<div align="center"><strong>---Installing ROKOS Core---</strong><br />(The first boot of ROKOS Core for Raspberry Pi)</div>
-<p><br /><br />1. Type:</p>
-<div class="codeheader">Code:</div>
-<div class="code">
-<pre style="margin-top: 0; display: inline;">sudo raspi-config</pre>
-</div>
-<p>(and press enter)<br /><br />2. Select:</p>
-<div class="codeheader">Code:</div>
-<div class="code">
-<pre style="margin-top: 0; display: inline;">1. Expand Filesystem</pre>
-</div>
-<p>(and press enter) press enter again on the &lt;Ok&gt; button.<br /><br />3. Select:</p>
-<div class="codeheader">Code:</div>
-<div class="code">
-<pre style="margin-top: 0; display: inline;">2. Change user password</pre>
-</div>
-<p>(and press enter) press enter again on the &lt;Ok&gt; button. Type a new password (you will not see the letters) and press enter, type your new password again, and press enter. Then press the &lt;Ok&gt; button.<br /><br />4. Select:</p>
-<div class="codeheader">Code:</div>
-<div class="code">
-<pre style="margin-top: 0; display: inline;">5. Internationalization Options</pre>
-</div>
-<p>(and press enter) Then select:</p>
-<div class="codeheader">Code:</div>
-<div class="code">
-<pre style="margin-top: 0; display: inline;">I2. Change Timezone</pre>
-</div>
-<p>(Choose your timezone)<br /><br />5. Press the "TAB" button on your keyboard two times to get to the &lt;Finish&gt; button, and press enter. Then choose &lt;Yes&gt; to restart your system.<br /><br />6. Type:</p>
-<div class="codeheader">Code:</div>
-<div class="code">
-<pre style="margin-top: 0; display: inline;">startx</pre>
-</div>
-<p>(and press enter) your system will now start up and you are <strong>DONE!</strong><br /><br />ENJOY THIS AWESOME OPERATING SYSTEM!</p>
+
+	<div align="center"><strong>Steps for first boot for ROKOS core for Raspberry Pi 2, 3 IoT devices<br /></strong></div>
+<p><br />User: pi &nbsp;/ Password: rokos , follow normal setup.<br /><br />a) Login and open a terminal.<br />b) type: &nbsp; &nbsp; &nbsp;<strong>sudo ./resize-sdcard.sh</strong> &nbsp; &nbsp; &nbsp; (this will resize and use all the space from the SD card)<br />c) System ready for use.<br /><br />Extra info command to auto-sync the OKCash chain in minutes:<br /><br />a) Open terminal.<br />b) type: &nbsp; &nbsp; &nbsp; &nbsp; <strong>./ok-sync-arm.sh</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (this will download and unzip the latest ok-blockchain snapshot to the okcash datafolder for Raspberry Pi 2, 3 devices)<br />c) start your wallet after the process is done and give it some minutes.<br />d) your OK wallet is ready to be used.<br /><br />For security, change your ROKOS user password:<br /><br />a) Open terminal.<br />b) type: &nbsp; &nbsp; &nbsp; &nbsp; <strong>sudo passwd</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (change the pi user account password for a more secure and personal one)<br /><br />Done, enjoy your ROKOS v7</p>
+	
 <p>&nbsp;</p>
 	</section>
 	<footer>
@@ -130,7 +102,7 @@
 		<div class="row">
 			<div class="col-lg-3">
 				<div class="widget">
-					<h5 class="widgetheading">Get in touch</h5>
+					<h5 class="widgetheading">Join the OK Bitcoin community</h5>
 					<br><a href="https://discord.gg/grvpc8c"> <img alt="Logo" src="https://discordapp.com/api/guilds/213747404745211904/widget.png?style=banner2" width="250px"></a>
 					
 				</div>
