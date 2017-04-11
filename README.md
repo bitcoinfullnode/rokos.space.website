@@ -1,8 +1,11 @@
-![ROKOS-OK](http://i.imgur.com/XPXrqBg.png)
-ROKOS IoT Open Source Website
+![ROKOS-OK](http://i.imgur.com/BluqVIE.png)
+
+ROKOS OK Bitcoin Full node
 =========================== 
 
-Raspbian OK OS for Raspberry PI and IoT Devices (Internet of Things) Resources Website
+Open Source
+
+ROKOS OK Bitcoin full node OS for Raspberry PI and IoT Devices (Internet of Things) Resources Website
 
 Native Bitcoin OKCash and Cryptocurrencies Full Nodes / versions for IoT Resources Website
 
@@ -21,7 +24,9 @@ BTCTalk ROKOS flavors support/feedback: https://bitcointalk.org/index.php?topic=
 
 Raspberry Forums: https://www.raspberrypi.org/forums/viewtopic.php?f=41&t=112913
 
-Coverage at TechCrunch and CES2016 among others: 
+Coverage at TechCrunch and Nasdaq on CES2016 and CES 2017 among others: 
+
+http://www.nasdaq.com/article/fintech-at-ces-mastercard-and-rokos-shake-things-up-cm734192
 
 http://techcrunch.com/2016/01/04/the-rokos-core-os-turns-your-raspberry-pi-into-a-bitcoin-node/
 
