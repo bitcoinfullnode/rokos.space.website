@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>ROKOS Core OS for Raspberry Pi and IoT Devices with integrated Bitcoin Support</title>
+<title>ROKOS Core OS for Banana Pro and IoT Devices with integrated Bitcoin Full node</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="ROKOS Core is an Open Source Operating System for Raspberry Pi and IoT devices To Launch A Full Bitcoin Node" />
+<meta name="description" content="ROKOS Core is an Open Source Operating System for Raspberry, Pine64 and IoT devices To Launch A Bitcoin Full Node" />
 <!-- css -->
 <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
@@ -84,7 +84,7 @@
 				<ul class="breadcrumb">
 					<li><a href="index.html"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
 					<li>How to<i class="icon-angle-right"></i></li>
-					<li class="active">Burn ROKOS .img to SDcard</li>
+					<li class="active">Core (Bitcoin) for Pine64+</li>
 				</ul>
 			</div>
 		</div>
@@ -92,13 +92,11 @@
 	</section>
 	<section id="content">
 	<div class="container">
-<div align="center"><strong>"Empower yourself and build your own Bitcoin and Cryptocurrencies Fullnode Guide"</strong><br /><br /><strong>How to burn my ROKOS .img to my SDcard - Guide from zero! Full steps for New Users</strong><br /><br /></div>
-<div align="center"><strong>---Prepare the MicroSD/MicroSDHC card---</strong></div>
-<p><br />(In the example we use windows, for mac and linux can follow same steps but with their own SD .img burning software)<br /><br />1. Download and install SD Formatter 4.0 (This is the tool to format the SD card) from:<br />Windows: <a class="ul" href="https://www.sdcard.org/downloads/formatter_4/eula_windows/SDFormatterv4.zip">https://www.sdcard.org/downloads/formatter_4/eula_windows/SDFormatterv4.zip</a><br />Mac: <a class="ul" href="https://www.sdcard.org/downloads/formatter_4/eula_mac/SDFormatter_4.00B.pkg">https://www.sdcard.org/downloads/formatter_4/eula_mac/SDFormatter_4.00B.pkg</a><br />(or find it yourself at: <a class="ul" href="https://sdcard.org/downloads">https://sdcard.org/downloads</a>)<br /><br />2. Insert the MicroSD/MicroSDHC card into your PC/Mac. (You will probably need an MicroSD to SD adapter for this).<br /><br />3. Start SD Formatter 4.0 and click the [Option] button. In there you change from "FORMAT TYPE: QUICK" to "FORMAT TYPE: (FULL)Erase", just leave the "FORMAT SIZE ADJUSTMENT" in OFF and click the [OK] button so start the format. When the card is completely formatted click the [Exit] button to close SD Formatter.<br /><br />4. Download and install Win32 Disk Imager (This is the iso file Image burner) from:<br />Windows: <a class="ul" href="http://sourceforge.net/projects/win32diskimager/files/latest/download">http://sourceforge.net/projects/win32diskimager/files/latest/download</a><br /><br />5. Download ROKOS Core or Flavors (rokosXversion_name.zip) and unzip the ISO file</p>
-<p>(This is the awesome ROKOS Core "Operating System" that we are going to install on the SD card) from:<br />find your .img download yourself at: <a class="ul" href="http://rokos.space/downloads.html">http://rokos.space/downloads.html</a><br /><br />6. Start Win32 Disk Imager, press the "little blue folder" and select the "rokosXversion.img" file that you did extract. Make sure your SD card is selected in the list to the right and press the [Write] button.</p>
-<p>&nbsp;&nbsp;&nbsp; It will tell you that it can corrupt the SD card, just press [Yes] to continue the installation, when the installation to the SD card is done press the [Exit] button to close Win32 Disk Imager.<br /><br />7. Now "Safely remove" your SD card from the computer.<br /><br />8. Put the MicroSD/MicroSDHC card in your IoT device, and make sure you got an USB Keyboard, Monitor (via HDMI), and and Internet cable connected to the IoT device before you connect the power cable.</p>
+
+	<div align="center"><strong>Steps for first boot for ROKOS core for Banana Pro IoT devices<br /></strong></div>
+<p><br />User: pi &nbsp;/ Password: rokos , follow normal setup.<br /><br />a) Login, open a terminal: <br />b) type: &nbsp; &nbsp; &nbsp;<strong>sudo resize2fs /dev/mmcblk0p2</strong> &nbsp; &nbsp; &nbsp; (this will resize and use all the space from the SD card)<br />c) System ready for use.<br /><br />Extra info command to auto-sync the OKCash chain in minutes:<br /><br />a) Open terminal and type: <strong>cd ok-scripts</strong><br />b) type: &nbsp; &nbsp; &nbsp; &nbsp; <strong>./ok-sync-arm64.sh</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (this will download and unzip the latest ok-blockchain snapshot to the okcash datafolder for Pine64+ devices)<br />c) start your wallet after the process is done and give it some minutes.<br />d) your OK wallet is ready to be used.<br /><br />For security, change your ROKOS user password:<br /><br />a) Open terminal.<br />b) type: &nbsp; &nbsp; &nbsp; &nbsp; <strong>sudo passwd</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (change the pi user account password for a more secure and personal one)<br /><br />Done, enjoy your ROKOS v8</p>
+	
 <p>&nbsp;</p>
-<center><strong>ENJOY THIS AWESOME OPERATING SYSTEM!</strong></center>
 	</section>
 	<footer>
 	<div class="container">
