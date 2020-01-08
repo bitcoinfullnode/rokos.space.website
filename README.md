@@ -1,4 +1,4 @@
-![ROKOS-OK](http://i.imgur.com/BluqVIE.png)
+![ROKOS-OK](https://i.imgur.com/YYXJ9up.png)
 
 ROKOS OK Bitcoin Full node
 =========================== 
